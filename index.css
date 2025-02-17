@@ -1,0 +1,47 @@
+html { 
+    height: -webkit-fill-available;    
+}
+body {
+    display: flex;    
+    flex-direction: column;    
+    justify-content: space-between;    
+    min-height: 100vh;    
+    min-height: 100svh;    
+    min-height: -webkit-fill-available;    
+    margin: 0px;   
+    font-family: fantasy;    
+    background-color: #83c8f2;    
+}
+#superior {
+    display: flex;
+    height: 8vmax;   
+    justify-content: center;    
+    align-items: center;    
+    font-size: 4vmax;    
+    color: white;    
+    background-color: #6c4675;    
+}
+.seccio {
+    flex: 1;    
+    display: none;    
+}
+#seccio_1 {
+    display: flex;    
+    justify-content: center;    
+    align-items: center;    
+    font-size: 4vmax;
+}
+#menu {
+    display: flex;
+    height: 8vmax;
+}
+#menu i{
+    flex: 1;    
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #6c4675;
+    font-size: 5vmax;
+    cursor: pointer;    
+}
